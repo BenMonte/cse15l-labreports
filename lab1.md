@@ -4,7 +4,7 @@
 
 CD: 
 
-![Image](image.png)
+![Image](image1.png)
 
 
 'cd' absolute path right before the command was run was the wokring directory "C:\Users\Lofted\Desktop\CSE12". I got the same output as before since the command without arguments returns you to the same path you were already in. The output is also **not** an error. 
