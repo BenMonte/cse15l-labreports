@@ -11,11 +11,15 @@ CD:
 
 LS: 
 
-![Image]()
+![Image](image2.png)
 
 The absolute path before the command was run is C:\Users\Lofted\Desktop\CSE12. The 'ls' command lists the contents of the current directory which here it listed Java source files which is expected from this command meaning it was **not** an error.
 
-CAT: nothing happens since a file path is needed, it is an error 
+CAT: 
+
+![Image](image3.png)
+
+The absolute path before the command was run is C:\Users\Lofted\Desktop\CSE12. Since the 'cat' command requires a path argument to function, it is just displaying its content, and this is **not** an error 
 
 **Directory Path Argument:**
 CD:
