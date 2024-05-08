@@ -14,14 +14,20 @@
 
 ![Image](addmsgex1.png)
 
+
+
 **Methods Called:**
-handle, handleRequest, and queryToMap
+The main, handleRequest, and handle methods are called in this code.
 
-Relevant arguments to methods: 
+**Relevant arguments to methods:**
 
-HttpExchange exchange, URI url, String query, StringBuilder chatLog.
+HttpExchange exchange and URI url are mainly used.
 
-Each time a new message is added with the /add-message code, the server updates the chat Log with the username and message inputed. 
+**Field values change**
+
+The String user and String message values are being changed as s= and user= are assigned values. The int port value is also cahnged as it could be assigned a different value such as 500 or 1000. 
+
+Each time a new message is added with the /add-message code, the server updates the chat Log with the username and message inputed. So anything written after "s=" will be the message and anything written after "user=" will be the user that message is coming from. Aditionally, the "%20" indicates spaces in between words for a certain message.
 
 
 **Message 2**
@@ -31,13 +37,17 @@ Each time a new message is added with the /add-message code, the server updates 
 
 
 **Methods Called:**
-handle, handleRequest, and queryToMap
+The main, handleRequest, and handle methods are called in this code.
 
-Relevant arguments to methods: 
+**Relevant arguments to methods:**
 
-HttpExchange exchange, URI url, String query, StringBuilder chatLog.
+HttpExchange exchange and URI url are mainly used.
 
-Each time a new message is added with the /add-message code, the server updates the chat Log with the username and message inputed. 
+**Field values change**
+
+The String user and String message values are being changed as s= and user= are assigned values. The int port value is also cahnged as it could be assigned a different value such as 500 or 1000. 
+
+Each time a new message is added with the /add-message code, the server updates the chat Log with the username and message inputed. So anything written after "s=" will be the message and anything written after "user=" will be the user that message is coming from. Aditionally, the "%20" indicates spaces in between words for a certain message.
 
 
 
