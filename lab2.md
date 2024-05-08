@@ -2,14 +2,32 @@
 
 # Part 1
 
+**Chat Server Code**
+
+
 ![Image](ChatServerCode.png)
+
+
+
+**Message 1**
 
 
 ![Image](addmsgex1.png)
 
+**Methods Called:**
+handle, handleRequest, and queryToMap
+
+Relevant arguments to methods: 
+
+HttpExchange exchange, URI url, String query, StringBuilder chatLog.
+
+Each time a new message is added with the /add-message code, the server updates the chat Log with the username and message inputed. 
+
+
+**Message 2**
+
 
 ![Image](addmsgex2.png)
-
 
 
 **Methods Called:**
@@ -21,13 +39,24 @@ HttpExchange exchange, URI url, String query, StringBuilder chatLog.
 
 Each time a new message is added with the /add-message code, the server updates the chat Log with the username and message inputed. 
 
+
+
 # Part 2
+
+
+**Private Key**
 
 ![Image](privkey.png)
 
 
+
+**Public Key**
+
 ![Image](pubkey.png)
 
+
+
+**Login w/o Password**
 
 ![Image](login.png)
 
