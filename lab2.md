@@ -2,10 +2,14 @@
 
 # Part 1
 
-![Image](ss1.png)
+![Image](ChatServerCode.png)
 
 
-![Image](addmessageexample.png)
+![Image](addmsgex1.png)
+
+
+![Image](addmsgex2.png)
+
 
 
 **Methods Called:**
@@ -19,13 +23,13 @@ Each time a new message is added with the /add-message code, the server updates 
 
 # Part 2
 
-![Image](compls.png)
+![Image](privkey.png)
 
 
-![Image](ieng6ls.png)
+![Image](pubkey.png)
 
 
-![Image](nopassls.png)
+![Image](login.png)
 
 
 # Part 3 
