@@ -69,7 +69,8 @@ BensMacB00k:docsearch-main Ben$ grep -i "weather" ./technical/911report/chapter-
 BensMacB00k:docsearch-main Ben$ grep -i "snake" ./technical/911report/chapter-12.txt
                 the snake," and it must be converted or destroyed.
 ```
-Explainantion
+
+The grep -i command is used here to find the words "weather" and "snake" in text files, ignoring whether they are uppercase or lowercase, making it easy to locate specific terms in large documents.
 
 **-c command**
 ```
@@ -79,7 +80,7 @@ BensMacB00k:docsearch-main Ben$ grep -c "snake" ./technical/911report/chapter-12
 BensMacB00k:docsearch-main Ben$ grep -c "plane" ./technical/911report/chapter-1.txt
 71
 ```
-Explanation
+This command takes certain key words and lists how many times that word is present in a certain file. It is helpful as it quanitfies references numerically.
 
 **-v command**
 ```
@@ -109,7 +110,8 @@ assistance.
 Legal Services Network is now available in 46 states and expects to
 www.aarp.org/LSN to find a lawyer nearby.
 ```
-Explanation
+
+This command is used to exclude lines that contain the specified pattern ("a" and "the" in the examples) from the output. This is useful for filtering out common but irrelevant information from certain files.
 
 **-b command**
 ```
@@ -127,7 +129,7 @@ BensMacB00k:docsearch-main Ben$ grep -b "fine" ./technical/government/Media/Abus
 1378:Under state law, the minimum fine for contempt of a PFA is $100;
 1443:the maximum fine is $1,000 and up to six months in jail.
 ```
-Explanation
+This command is used to locate terms in specified text files, displaying the byte offset at which each occurrence begins within the file. This is useful for pinpointing the exact location of important terms which is useful for veyr large documents and detailed analysis. 
 
 
 
