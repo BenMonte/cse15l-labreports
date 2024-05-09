@@ -2,7 +2,7 @@
 
 ## Part 1 - Bugs
 
-**Chosen Method:**
+**Chosen Method**
 
 
 ![Image](bugchosen.png)
@@ -54,6 +54,7 @@ public static void reverseInPlace(int[] arr) {
 ```
 
 **Why Fix Works**
+
 The bug is fixed by swapping elements only in the first half of the array which prevents any overwritting. The purpose of the int a array is so that each pair of elements is exchanged only once so that that a index out of bounds error doesn't occur. 
 
 
