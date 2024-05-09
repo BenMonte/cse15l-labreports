@@ -5,7 +5,7 @@
 **Chosen Method:**
 
 
-![Image](ChatServerCode.png)
+![Image](bugchosen.png)
 
 
 **Failure-inducing Input**
@@ -35,9 +35,9 @@ public class ArrayTests {
 ```
 **Symptom**
 
-![Image](ChatServerCode.png)
+![Image](yestest.png)
 
-![Image](ChatServerCode.png)
+![Image](notest.png)
 
 
 
