@@ -72,6 +72,8 @@ BensMacB00k:docsearch-main Ben$ grep -i "snake" ./technical/911report/chapter-12
 
 The grep -i command is used here to find the words "weather" and "snake" in text files, ignoring whether they are uppercase or lowercase, making it easy to locate specific terms in large documents.
 
+
+
 **-c command**
 ```
 BensMacB00k:docsearch-main Ben$ grep -c "snake" ./technical/911report/chapter-12.txt
@@ -81,6 +83,8 @@ BensMacB00k:docsearch-main Ben$ grep -c "plane" ./technical/911report/chapter-1.
 71
 ```
 This command takes certain key words and lists how many times that word is present in a certain file. It is helpful as it quanitfies references numerically.
+
+
 
 **-v command**
 ```
@@ -112,6 +116,8 @@ www.aarp.org/LSN to find a lawyer nearby.
 ```
 
 This command is used to exclude lines that contain the specified pattern ("a" and "the" in the examples) from the output. This is useful for filtering out common but irrelevant information from certain files.
+
+
 
 **-b command**
 ```
