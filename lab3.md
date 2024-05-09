@@ -138,6 +138,10 @@ BensMacB00k:docsearch-main Ben$ grep -b "fine" ./technical/government/Media/Abus
 ```
 This command is used to locate terms in specified text files, displaying the byte offset at which each occurrence begins within the file. This is useful for pinpointing the exact location of important terms which is useful for veyr large documents and detailed analysis. 
 
+### ***Cited Sources***
+
+https://en.wikibooks.org/wiki/Grep
+
 
 
 
