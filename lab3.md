@@ -1,6 +1,6 @@
 # Lab Report 3
 
-# Part 1 - Bugs
+## Part 1 - Bugs
 
 **Chosen Method:**
 
@@ -59,9 +59,9 @@ The bug is fixed by swapping elements only in the first half of the array which 
 
 
 
-# Part 2 - Researching Commands
+## Part 2 - Researching Commands
 
-**-i command**
+### **-i command**
 ```
 BensMacB00k:docsearch-main Ben$ grep -i "weather" ./technical/911report/chapter-1.txt
     For those heading to an airport, weather conditions could not have been better for a safe and pleasant journey. Among the travelers were Mohamed Atta and Abdul Aziz al Omari, who arrived at the airport in Portland, Maine.
@@ -74,7 +74,7 @@ The grep -i command is used here to find the words "weather" and "snake" in text
 
 
 
-**-c command**
+### **-c command**
 ```
 BensMacB00k:docsearch-main Ben$ grep -c "snake" ./technical/911report/chapter-12.txt
 1
@@ -86,7 +86,7 @@ This command takes certain key words and lists how many times that word is prese
 
 
 
-**-v command**
+### **-v command**
 ```
 BensMacB00k:docsearch-main Ben$ grep -v "a" ./technical/government/Media/5_Legal_Groups.txt
 BY EDWARD MCDONOUGH
@@ -119,7 +119,7 @@ This command is used to exclude lines that contain the specified pattern ("a" an
 
 
 
-**-b command**
+### **-b command**
 ```
 BensMacB00k:docsearch-main Ben$ grep -b "cost" ./technical/government/Media/A_Perk_of_Age.txt
 1679:Another source of low-cost help also expanded this year: AARP's
