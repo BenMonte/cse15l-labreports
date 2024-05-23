@@ -2,7 +2,7 @@
 
 ## 1: Logging into ieng6
 
-To log in my ieng6 server, I opened the terminal, made sure it was in bash, and typed <ssh bmontesinos@ieng6.ucsd.edu> which logged me in instantly without needing to enter my password in. 
+To log in my ieng6 server, I opened the terminal, made sure it was in bash, and typed <ssh `bmontesinos@ieng6.ucsd.edu`> which logged me in instantly without needing to enter my password in. 
 
 
 ![Image](ieng6login.png)
