@@ -4,6 +4,8 @@
 
 To log in my ieng6 server, I opened the terminal, made sure it was in bash, and typed <`ssh bmontesinos@ieng6.ucsd.edu`> which logged me in instantly without needing to enter my password in. 
 
+The exact key strokes I pressed in order were: <`ssh`> + <`space`> + <`bmontesinos@ieng6.ucsd.edu`> + <`enter`>
+
 
 ![Image](ieng6login.png)
 
@@ -11,6 +13,8 @@ To log in my ieng6 server, I opened the terminal, made sure it was in bash, and 
 ## 2: Cloning the forked repository from my GitHub account using the SSH URL
 
 To do this, all I needed to do was go into my GitHub fork of the lab7 repository, click on the "<> Code" drop down menu in green, select the SSH tab, and <`ctrl + c`> the SSH URL to my forked repository of lab7. Then, i went into my terminal and type <`git clone git@github.com:BenMonte/lab7.git`> which cloned this repository almost instantly. 
+
+The exact key strokes that were pressed in order were: <`left click`> (On code drop down menu) + <`ctrl + c`> + <`git`> + <`space`> + <`clone`> + <`git@github.com:BenMonte/lab7.git`> + <`enter`>
 
 
 ![Image](gitclonessh.png)
@@ -20,13 +24,17 @@ To do this, all I needed to do was go into my GitHub fork of the lab7 repository
 
 To run these tests, all I did was access the test.sh file in the lab7-main folder. In this file, I located the compile text and run text. Then I selected the compile text and pressed <`ctrl + c`>, went into my terminal and pressed <`ctrl + v`> which compiled the tests. After that, I did the same thing with the run text by pressing <`ctrl + c`> while having it selected and then pressed <ctrl + v> into my terminal. Once that second line ran, the tests failed. 
 
+The exact key strokes that were pressed in order were: <`cd`> + <`space`> + <`test.sh`> + <`enter`> + <`ctrl + c`> + <`ctrl + v`> + <`enter`> + <`ctrl + c`> + <`ctrl + v`> + <`enter`> 
+
 
 ![Image](runtestfail.png)
 
 
 ## 4: Editing the Code
 
-Firstly, I needed to access the file and edit it which I did by simply pressing and typing <`vim ListExamples.java`>. Once I was in the vim editor, I used <`shift`> + <`g`> to reach end of the file where the error is occuring. Then I pressed <`up`> command on my keyboard 6 times to reach the line that needs change. Then, since using the <`up`> command brought me to the end of that line, I used the <`0`> command to reach the beggining of the line and then used <`^`> to reach the first non-blank character in the line. Since all I need to do is change the number from "1" to "2" in the first word of the line "index1", I use the <`e`> key to reach the last character of that word. Then, I press <`a`> to enter editing mode, press <`backspace`> and then <`2`> and finish off by pressing <`escape`> to exit the editing mode. After all that is done, all I do is type the following pressing <`:wq`> and then <`enter`> to load it and save it. 
+Firstly, I needed to access the file and edit it which I did by simply pressing and typing <`vim ListExamples.java`>. Once I was in the vim editor, I used the <`:{43}`> command to bring me to the specified lin number that contained the error and then I used the <`0`> command to reach the beggining of the line and then used <`^`> to reach the first non-blank character in the line. Since all I need to do is change the number from "1" to "2" in the first word of the line "index1", I use the <`e`> key to reach the last character of that word. Then, I press <`a`> to enter editing mode, press <`backspace`> and then <`2`> and finish off by pressing <`escape`> to exit the editing mode. After all that is done, all I do is type the following pressing <`:wq`> and then <`enter`> to load it and save it. 
+
+The exact key strokes that were pressed in order were: <`vim`> + <`space`> + <`ListExamples.java`> + <`enter`> + <`:{43}`> + <`0`> + <`^`> + <`e`> + <`a`> + <`backspace`> + <`2`> + <`escape`> + <`:wq`> + <`enter`>
 
 
 ![Image](editfilevim.png)
@@ -38,6 +46,8 @@ Firstly, I needed to access the file and edit it which I did by simply pressing 
 ## 5: Running Tests (pass)
 
 To run these tests, the steps were the exact same as step 3 of running these tests where they failed. All I did was access the test.sh file in the lab7-main folder. In this file, I located the compile text and run text. Then I selected the compile text and pressed <`ctrl + c`>, went into my terminal and pressed <`ctrl + v`> which compiled the tests. After that, I did the same thing with the run text by pressing <`ctrl + c`> while having it selected and then pressed <`ctrl + v`> into my terminal. Once that second line ran, the tests passed this time. 
+
+The exact key strokes that were pressed in order were: <`cd`> + <`space`> + <`test.sh`> + <`enter`> + <`ctrl + c`> + <`ctrl + v`> + <`enter`> + <`ctrl + c`> + <`ctrl + v`> + <`enter`> 
 
 
 ![Image](runtestpass.png)
@@ -51,6 +61,7 @@ This process was a two-step execution as committing and push changes requires di
 
 To **commit** the changes, I ran the command <`git add ListExamples.java`> to stage the changes in this file. Then, I used the <`git commit -m "ListExamples.java succesfully updated"`> which was used to record the staged changes in the repository with a message of my choice describing what happened. 
 
+The exact key strokes that were pressed in order were: <`git`> + <`space`> + <`add`> + <`space`> + <`ListExamples.java`> + <`enter`> + <`git`> + <`space`> + <`commit`> + <`space`> + <`-m`> + <`space`> + <`"ListExamples.java succesfully updated"`> + <`enter`>
 
 
 ![Image](gitcommit.png)
@@ -58,6 +69,8 @@ To **commit** the changes, I ran the command <`git add ListExamples.java`> to st
 
 
 To **push** these changes into my forked repository, it was quite simple as all it took was the command <`git push origin main`> which uploads the local commits to the remote repository on GitHub. 
+
+The exact key strokes that were pressed in order were: <`git`> + <`space`> + <`push`> + <`space`> + <`origin`> + <`space`> + <`main`> + <`enter`>
 
 
 ![Image](gitpush.png)
