@@ -44,13 +44,11 @@ Here is an attached screenshot of my code running succesfully!
 
 ## Setup Information
 
-Setup Information:
+**File & Directory Structure:**
 
-File & Directory Structure:
+Directory: /Downloads/lab3-main (1) [ ~/Downloads/lab3-main\ \(1\) ]
 
-**Directory**: /Downloads/lab3-main (1) [ ~/Downloads/lab3-main\ \(1\) ]
-
-**Files**:
+Files:
 *ex.java*
 *bash.sh*
 
