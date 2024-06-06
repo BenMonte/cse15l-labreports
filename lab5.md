@@ -56,6 +56,7 @@ Files:
 **Contents of Each File Before Fixing the Bug:**
 
 *ex.java:*
+
 ```
 public class ex {
      public static void main(String[] args) {
@@ -64,7 +65,9 @@ public class ex {
     
 }
 ```
+
 *bash.sh:*
+
 ```
 $FILE="ex.java" 
 
@@ -76,6 +79,7 @@ else
     echo "File does not exist."
 fi
 ```
+
 **Command Line to Trigger the Bug:**
 
 ```
