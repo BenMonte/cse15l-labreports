@@ -55,16 +55,16 @@ Files:
 **Contents of Each File Before Fixing the Bug:**
 
 *ex.java:*
-
+```
 public class ex {
      public static void main(String[] args) {
             System.out.println("hello");
         }
     
 }
-
+```
 *bash.sh:*
-
+```
 $FILE="ex.java" 
 
 if [ -f $FILE ]
@@ -74,7 +74,7 @@ then
 else
     echo "File does not exist."
 fi
-
+```
 **Command Line to Trigger the Bug:**
 
 ```
