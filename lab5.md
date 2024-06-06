@@ -5,7 +5,7 @@
 ## Bash Script Displaying Error
 
 Hi, I wrote this bash script earlier and for some reason it won't output the file along with a message saying it exists even though everything seems correct.
-My guesses are that the `cat $FILE` and `-f $FILE` commands need to have " around the `$FILE` part or the first line needs to have spaces in between FILE and = as well as a space in between = and `"ex a.txt"`. 
+My guesses are that the `cat $FILE` and `-f $FILE` commands need to have " around the `$FILE` part or the first line needs to have spaces in between FILE and = as well as a space in between = and `"ex.java"`. 
 However, I tried all those fixes and still can't seem to get this code to run properly. 
 
 Here is a screenshot of my code and the output I'm receiving:
