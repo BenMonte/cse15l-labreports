@@ -10,7 +10,9 @@ However, I tried all those fixes and still can't seem to get this code to run pr
 
 Here is a screenshot of my code and the output I'm receiving:
 
-![Image](bugchosen.png)
+![Image](fcode.png)
+![Image](ft.png)
+
 
 I would really appreciate any help on this! Thanks!
 
@@ -36,7 +38,8 @@ The `$` character should only be used to later call that varibale in this script
 Here is an attached screenshot of my code running succesfully!
 
 
-![Image](bugchosen.png)
+![Image](gcode.png)
+![Image](gt.png)
 
 
 ## Setup Information
